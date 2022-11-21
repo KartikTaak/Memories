@@ -5,7 +5,7 @@ const postSchema = mongoose.Schema({
     message : mongoose.Schema.Types.String,
     creator : mongoose.Schema.Types.String,
     tags:[String],                  //arrays of strings
-    selectedFile: String,         // convert image to string type using base64 
+    selectedFile: String,        
     likeCount : {
          // object bc we want to give more detail set initally zero
          type : Number,
